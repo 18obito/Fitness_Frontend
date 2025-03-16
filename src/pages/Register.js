@@ -98,7 +98,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-        const response = await fetch("https://fitness-backend-uwyy.onrender.com/api/auth/register", {
+        const response = await fetch("https://fitness-backend-uwyy.onrender.com/api/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
