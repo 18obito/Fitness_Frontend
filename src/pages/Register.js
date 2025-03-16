@@ -90,8 +90,8 @@ const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [message, setMessage] = useState("");
-  const [success, setSuccess] = useState(false);
+  const [message ] = useState("");
+  const [success] = useState(false);
   const navigate = useNavigate();
 
   const handleRegister = async (e) => {
