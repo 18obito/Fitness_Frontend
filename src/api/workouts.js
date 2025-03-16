@@ -5,12 +5,5 @@ export const getWorkouts = () => {
 };
 
 
-const addWorkout = async (workout) => {
-  try {
-    const response = await axios.post("http://localhost:5000/api/workouts", workout);
-    console.log("Workout added:", response.data);
-  } catch (error) {
-    console.error("Error adding workout:", error);
-  }
-};
+
 
