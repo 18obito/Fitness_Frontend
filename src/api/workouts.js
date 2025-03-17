@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getWorkouts = () => {
-  return axios.get("http://localhost:5000/api/workouts");
+  return axios.get("https://fitness-backend-uwyy.onrender.com/api/workouts");
 };
 
 
